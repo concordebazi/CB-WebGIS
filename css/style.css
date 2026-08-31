@@ -1177,6 +1177,13 @@ section h2{
 
 
 @media(max-width:600px){
+   .project-browser{
+    width:100%;
+}
+
+.project-browser-content{
+    padding:16px;
+}
    .projects-grid{
     grid-template-columns:1fr;
 }
