@@ -975,6 +975,34 @@ section h2{
 
     font-size:12px;
 }
+/* ---------- PROJECT LINK ---------- */
+
+.project-link{
+    display:inline-flex;
+    align-items:center;
+    gap:8px;
+
+    margin-top:22px;
+
+    color:#16d9c5;
+
+    font-size:14px;
+    font-weight:700;
+
+    transition:0.3s ease;
+}
+
+.project-link span{
+    transition:transform 0.3s ease;
+}
+
+.project-link:hover{
+    color:#ffffff;
+}
+
+.project-link:hover span{
+    transform:translateX(5px);
+}
 /* ==========================================
    MOBILE
 ========================================== */
