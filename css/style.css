@@ -489,7 +489,13 @@ section h2{
     .hero h1{
         font-size:46px;
     }
+.hero-content{
+    grid-template-columns:1fr;
+}
 
+.hero-visual{
+    margin-top:30px;
+}
 }
 
 
