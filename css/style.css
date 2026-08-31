@@ -59,25 +59,22 @@ header{
 }
 
 
-/* ---------- LOGO ---------- */
 
-.logo{
-    font-size:22px;
-    font-weight:700;
-    color:#ffffff;
+
+/* ---------- SITE LOGO ---------- */
+
+.site-logo{
+    display:flex;
+    align-items:center;
 }
 
-.logo::after{
-    content:"";
-    display:inline-block;
+.site-logo img{
+    display:block;
 
-    width:8px;
-    height:8px;
+    width:155px;
+    height:auto;
 
-    margin-left:6px;
-
-    background:#16d9c5;
-    border-radius:50%;
+    object-fit:contain;
 }
 
 
@@ -2132,6 +2129,9 @@ section h2{
 
 
 @media(max-width:600px){
+  .site-logo img{
+    width:125px;
+}
    .site-footer{
     padding-top:55px;
 }
