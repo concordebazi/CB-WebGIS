@@ -614,7 +614,21 @@ section h2{
 
 
 @media(max-width:600px){
+.services-grid{
+    grid-template-columns:1fr;
+}
 
+.service-card{
+    padding:24px;
+}
+
+.section-container h2{
+    font-size:34px;
+}
+
+.section-intro{
+    font-size:16px;
+}
     .nav-btn{
         display:none;
     }
