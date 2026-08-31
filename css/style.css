@@ -170,6 +170,15 @@ header{
     width:100%;
     max-width:1200px;
     margin:auto;
+
+    display:grid;
+    grid-template-columns:1.1fr 0.9fr;
+    align-items:center;
+    gap:60px;
+}
+
+.hero-text-content{
+    width:100%;
 }
 
 .hero-tag{
