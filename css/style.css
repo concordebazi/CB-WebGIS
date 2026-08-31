@@ -1850,30 +1850,23 @@ section h2{
 
 /* ---------- FOOTER BRAND ---------- */
 
-.footer-logo{
-    margin-bottom:15px;
+/* ---------- FOOTER LOGO ---------- */
 
-    color:#ffffff;
+.footer-site-logo{
+    display:inline-flex;
+    align-items:center;
 
-    font-size:23px;
-    font-weight:700;
+    margin-bottom:18px;
 }
 
-.footer-logo::after{
-    content:"";
+.footer-site-logo img{
+    display:block;
 
-    display:inline-block;
+    width:190px;
+    height:auto;
 
-    width:8px;
-    height:8px;
-
-    margin-left:6px;
-
-    background:#16d9c5;
-
-    border-radius:50%;
+    object-fit:contain;
 }
-
 .footer-brand p{
     max-width:390px;
 
@@ -2129,6 +2122,9 @@ section h2{
 
 
 @media(max-width:600px){
+   .footer-site-logo img{
+    width:160px;
+}
   .site-logo img{
     width:125px;
 }
