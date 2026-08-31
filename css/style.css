@@ -582,16 +582,16 @@ section h2{
 
     line-height:1.7;
 }
-
 /* ==========================================
    MOBILE
 ========================================== */
 
 @media(max-width:900px){
-.services-grid{
-    grid-template-columns:
-    repeat(2, 1fr);
-}
+
+    .services-grid{
+        grid-template-columns:repeat(2, 1fr);
+    }
+
     .nav-links{
         display:none;
     }
@@ -603,32 +603,36 @@ section h2{
     .hero h1{
         font-size:46px;
     }
-.hero-content{
-    grid-template-columns:1fr;
-}
 
-.hero-visual{
-    margin-top:30px;
-}
+    .hero-content{
+        grid-template-columns:1fr;
+    }
+
+    .hero-visual{
+        margin-top:30px;
+    }
+
 }
 
 
 @media(max-width:600px){
-.services-grid{
-    grid-template-columns:1fr;
-}
 
-.service-card{
-    padding:24px;
-}
+    .services-grid{
+        grid-template-columns:1fr;
+    }
 
-.section-container h2{
-    font-size:34px;
-}
+    .service-card{
+        padding:24px;
+    }
 
-.section-intro{
-    font-size:16px;
-}
+    .section-container h2{
+        font-size:34px;
+    }
+
+    .section-intro{
+        font-size:16px;
+    }
+
     .nav-btn{
         display:none;
     }
