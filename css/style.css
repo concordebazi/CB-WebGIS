@@ -179,6 +179,7 @@ header{
 
 .hero-text-content{
     width:100%;
+    min-width:0;
 }
 
 .hero-tag{
@@ -256,6 +257,7 @@ header{
 ========================================== */
 
 .hero-visual{
+    width:100%;
     display:flex;
     justify-content:center;
 }
