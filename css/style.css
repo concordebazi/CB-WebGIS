@@ -607,7 +607,116 @@ transform:translateY(25px);
         #933eff
     );
 }
+/* ==========================================
+   LAPTOP MINI WEBSITE
+========================================== */
 
+.screen-mini-nav{
+    display:flex;
+    align-items:center;
+    gap:10px;
+}
+
+.screen-mini-nav span{
+    color:#b9c9e6;
+    font-size:8px;
+    font-weight:500;
+}
+
+.screen-mini-nav strong{
+    padding:5px 9px;
+
+    color:#ffffff;
+    font-size:8px;
+
+    border-radius:5px;
+
+    background:
+    linear-gradient(
+        90deg,
+        #6556ff,
+        #9a45ff
+    );
+}
+
+
+.screen-copy{
+    max-width:230px;
+}
+
+
+.screen-preview-cards{
+    display:grid;
+
+    grid-template-columns:
+    repeat(3, 1fr);
+
+    gap:10px;
+
+    margin-top:22px;
+}
+
+
+.screen-preview-card{
+    min-height:72px;
+
+    display:flex;
+    flex-direction:column;
+
+    align-items:flex-start;
+    justify-content:center;
+
+    gap:6px;
+
+    padding:10px;
+
+    background:
+    rgba(5,20,55,0.72);
+
+    border:
+    1px solid rgba(255,255,255,0.10);
+
+    border-radius:8px;
+
+    box-shadow:
+    0 10px 25px rgba(0,0,0,0.18);
+}
+
+
+.preview-icon{
+    width:30px;
+    height:30px;
+
+    display:flex;
+    align-items:center;
+    justify-content:center;
+
+    border-radius:7px;
+
+    background:
+    rgba(22,217,197,0.10);
+
+    font-size:16px;
+}
+
+
+.preview-ai{
+    color:#c977ff;
+
+    font-size:13px;
+    font-weight:800;
+
+    background:
+    rgba(151,68,255,0.16);
+}
+
+
+.screen-preview-card span{
+    color:#dce7ff;
+
+    font-size:8px;
+    font-weight:700;
+}
 
 .laptop-base{
     width:515px;
