@@ -150,25 +150,27 @@ header{
 
     padding:145px 35px 35px;
 
-    background:
-    radial-gradient(
-        circle at 78% 26%,
-        rgba(50,121,255,0.20),
-        transparent 28%
-    ),
-    radial-gradient(
-        circle at 88% 50%,
-        rgba(127,66,255,0.18),
-        transparent 24%
-    ),
-    linear-gradient(
-        135deg,
-        #06101d,
-        #071a33 55%,
-        #071426
+   background:
+linear-gradient(
+    90deg,
+    rgba(3,12,25,0.98) 0%,
+    rgba(4,14,29,0.90) 34%,
+    rgba(5,18,38,0.55) 58%,
+    rgba(4,13,28,0.28) 100%
+),
+radial-gradient(
+    circle at 75% 25%,
+    rgba(17,177,255,0.22),
+    transparent 30%
+),
+radial-gradient(
+    circle at 90% 45%,
+    rgba(112,55,255,0.18),
+    transparent 30%
+),
+#06101d;
     );
-}
-
+   }
 
 .hero-overlay{
     position:absolute;
@@ -191,15 +193,16 @@ header{
     position:relative;
     z-index:2;
 
-    max-width:1250px;
+    width:100%;
+    max-width:1280px;
     margin:auto;
 
     display:grid;
-    grid-template-columns:0.95fr 1.05fr;
+    grid-template-columns:0.92fr 1.08fr;
 
     align-items:center;
 
-    gap:55px;
+    gap:30px;
 }
 
 
@@ -364,35 +367,41 @@ header{
 .hero-visual{
     position:relative;
 
-    min-height:470px;
+    width:100%;
+    min-height:500px;
 
     display:flex;
-
-    align-items:center;
+    align-items:flex-end;
     justify-content:center;
+
+    padding-bottom:35px;
 }
 
 
 /* ---------- LAPTOP ---------- */
 
 .hero-laptop{
-    position:relative;
+    position:absolute;
 
-    width:470px;
+    width:500px;
 
-    transform:
-    perspective(1000px)
-    rotateY(-8deg)
-    rotateX(2deg);
+    left:20px;
+    bottom:45px;
 
     z-index:2;
+
+    transform:
+    perspective(1100px)
+    rotateY(-6deg)
+    rotateX(2deg);
 }
 
 
 .laptop-screen{
     position:relative;
 
-    height:280px;
+    width:100%;
+    height:285px;
 
     overflow:hidden;
 
@@ -405,14 +414,14 @@ header{
         #122975
     );
 
-    border:
-    8px solid #161d35;
+    border:8px solid #161d35;
 
-    border-radius:18px 18px 10px 10px;
+    border-radius:
+    18px 18px 10px 10px;
 
     box-shadow:
-    0 30px 70px rgba(0,0,0,0.50),
-    0 0 45px rgba(42,100,255,0.18);
+    0 35px 70px rgba(0,0,0,0.48),
+    0 0 50px rgba(42,100,255,0.20);
 }
 
 
@@ -499,15 +508,15 @@ header{
 
 
 .laptop-base{
-    width:520px;
-    height:26px;
+    width:550px;
+    height:27px;
 
     margin-left:-25px;
 
     background:
     linear-gradient(
         180deg,
-        #38455f,
+        #485772,
         #111a2b
     );
 
@@ -515,27 +524,26 @@ header{
     0 0 120px 120px;
 
     box-shadow:
-    0 20px 30px rgba(0,0,0,0.35);
+    0 18px 30px rgba(0,0,0,0.45);
 }
-
 
 /* ---------- GIS MAP ---------- */
 
 .hero-map-card{
     position:absolute;
 
-    width:260px;
+    width:275px;
     height:205px;
 
-    right:30px;
-    top:135px;
+    right:95px;
+    bottom:100px;
 
     overflow:hidden;
 
     z-index:4;
 
     border:
-    1px solid rgba(60,220,255,0.50);
+    1px solid rgba(60,220,255,0.60);
 
     border-radius:15px;
 
@@ -543,16 +551,16 @@ header{
     linear-gradient(
         145deg,
         rgba(6,60,117,0.96),
-        rgba(8,95,150,0.88)
+        rgba(8,95,150,0.90)
     );
 
     box-shadow:
-    0 22px 55px rgba(0,0,0,0.35),
-    0 0 35px rgba(0,199,255,0.18);
+    0 22px 55px rgba(0,0,0,0.40),
+    0 0 40px rgba(0,199,255,0.25);
 
-    transform:rotate(3deg);
+    transform:
+    rotate(2deg);
 }
-
 
 .hero-map-grid{
     position:absolute;
@@ -616,14 +624,14 @@ header{
     width:205px;
 
     right:-15px;
-    top:55px;
+    top:45px;
 
-    z-index:5;
+    z-index:6;
 
     padding:22px;
 
     border:
-    1px solid rgba(151,97,255,0.55);
+    1px solid rgba(151,97,255,0.65);
 
     border-radius:20px;
 
@@ -631,14 +639,13 @@ header{
     linear-gradient(
         160deg,
         rgba(9,38,83,0.94),
-        rgba(35,28,105,0.94)
+        rgba(35,28,105,0.96)
     );
 
     box-shadow:
-    0 25px 60px rgba(0,0,0,0.36),
-    0 0 40px rgba(127,65,255,0.20);
+    0 25px 60px rgba(0,0,0,0.42),
+    0 0 45px rgba(127,65,255,0.28);
 }
-
 
 .ai-chip{
     width:64px;
