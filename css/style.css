@@ -154,21 +154,15 @@ header{
     linear-gradient(
         90deg,
         rgba(3,12,25,0.98) 0%,
-        rgba(4,14,29,0.90) 34%,
-        rgba(5,18,38,0.55) 58%,
-        rgba(4,13,28,0.28) 100%
+        rgba(4,14,29,0.88) 34%,
+        rgba(5,18,38,0.56) 58%,
+        rgba(4,13,28,0.22) 100%
     ),
-    radial-gradient(
-        circle at 75% 25%,
-        rgba(17,177,255,0.22),
-        transparent 30%
-    ),
-    radial-gradient(
-        circle at 90% 45%,
-        rgba(112,55,255,0.18),
-        transparent 30%
-    ),
-    #06101d;
+    url("../images/hero-city.jpg");
+
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
 }
 
 .hero-overlay{
