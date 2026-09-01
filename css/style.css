@@ -472,12 +472,32 @@ transform:translateY(25px);
     min-height:430px;
 
     display:flex;
-    align-items:flex-end;
+    align-items:center;
     justify-content:center;
 
-    padding-bottom:35px;
+    padding-bottom:20px;
 }
+/* ---------- HERO SOLUTIONS IMAGE ---------- */
 
+.hero-solutions-image{
+    display:block;
+
+    width:100%;
+    max-width:680px;
+    height:auto;
+
+    object-fit:contain;
+
+    transform:
+    translateX(25px)
+    translateY(10px);
+
+    filter:
+    drop-shadow(
+        0 28px 45px
+        rgba(0,0,0,0.42)
+    );
+}
 
 /* ---------- LAPTOP ---------- */
 
