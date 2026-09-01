@@ -491,13 +491,7 @@ transform:translateY(25px);
 
     z-index:2;
 
-  transform:
-    perspective(1200px)
-    rotateY(-10deg)
-    rotateX(2deg)
-    rotateZ(0deg);
-
-transform-origin:center bottom;
+    perspective:1200px;
 }
 
 
@@ -526,8 +520,15 @@ transform-origin:center bottom;
     box-shadow:
     0 35px 70px rgba(0,0,0,0.48),
     0 0 50px rgba(42,100,255,0.20);
-}
 
+    transform:
+        perspective(900px)
+        rotateY(-18deg)
+        rotateX(-3deg);
+
+    transform-origin:
+        bottom left;
+}
 
 .screen-top{
     display:flex;
@@ -612,30 +613,33 @@ transform-origin:center bottom;
 
 
 .laptop-base{
-    width:515px;
-    height:30px;
+    width:520px;
+    height:48px;
 
-    margin-left:-20px;
+    margin-left:-12px;
+    margin-top:-2px;
 
     background:
     linear-gradient(
         180deg,
-        #53627b,
+        #596984,
+        #26344c 45%,
         #111a2b
     );
 
     border-radius:
-    3px 3px 100px 100px;
+    4px 4px 80px 80px;
 
     transform:
-    perspective(700px)
-    rotateX(55deg);
+        perspective(550px)
+        rotateX(64deg)
+        skewX(-5deg);
 
     transform-origin:
-    top center;
+        top left;
 
     box-shadow:
-    0 18px 35px rgba(0,0,0,0.45);
+    0 22px 38px rgba(0,0,0,0.50);
 }
 /* ---------- GIS MAP ---------- */
 
