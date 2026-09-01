@@ -491,14 +491,13 @@ transform:translateY(25px);
 
     z-index:2;
 
-    transform:
+  transform:
     perspective(1200px)
-    rotateY(-14deg)
-    rotateX(6deg)
-    rotateZ(-1.5deg);
+    rotateY(-10deg)
+    rotateX(2deg)
+    rotateZ(0deg);
 
-    transform-origin:
-    center bottom;
+transform-origin:center bottom;
 }
 
 
