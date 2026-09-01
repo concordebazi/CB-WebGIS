@@ -180,7 +180,115 @@ header{
 
     pointer-events:none;
 }
+/* ==========================================
+   HERO NETWORK LIGHTS
+========================================== */
 
+.hero-network{
+    position:absolute;
+    inset:0;
+
+    z-index:1;
+
+    pointer-events:none;
+}
+
+
+/* ---------- GLOWING NODES ---------- */
+
+.network-node{
+    position:absolute;
+
+    width:10px;
+    height:10px;
+
+    border-radius:50%;
+
+    background:#25e9ff;
+
+    box-shadow:
+    0 0 10px #25e9ff,
+    0 0 22px rgba(37,233,255,0.95),
+    0 0 38px rgba(37,233,255,0.55);
+}
+
+
+.node-one{
+    top:24%;
+    left:58%;
+}
+
+
+.node-two{
+    top:18%;
+    left:70%;
+}
+
+
+.node-three{
+    top:25%;
+    left:82%;
+}
+
+
+.node-four{
+    top:18%;
+    left:93%;
+}
+
+
+/* ---------- NETWORK ARCS ---------- */
+
+.network-arc{
+    position:absolute;
+
+    height:150px;
+
+    border-top:
+    2px solid rgba(56,224,255,0.85);
+
+    border-radius:
+    50% 50% 0 0;
+
+    filter:
+    drop-shadow(0 0 5px rgba(56,224,255,0.85))
+    drop-shadow(0 0 12px rgba(56,224,255,0.45));
+
+    opacity:0.85;
+}
+
+
+.arc-one{
+    width:210px;
+
+    top:20%;
+    left:58%;
+
+    transform:
+    rotate(-7deg);
+}
+
+
+.arc-two{
+    width:245px;
+
+    top:15%;
+    left:68%;
+
+    transform:
+    rotate(4deg);
+}
+
+
+.arc-three{
+    width:230px;
+
+    top:19%;
+    left:81%;
+
+    transform:
+    rotate(-5deg);
+}
 
 .hero-content{
     position:relative;
