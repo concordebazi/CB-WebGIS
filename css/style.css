@@ -148,7 +148,7 @@ header{
     position:relative;
     overflow:hidden;
 
-  padding:155px 55px 22px;
+  padding:135px 55px 22px;
 
     background:
     linear-gradient(
@@ -185,7 +185,7 @@ header{
 .hero-content{
     position:relative;
     z-index:2;
-
+transform:translateY(25px);
     width:100%;
     max-width:1320px;
 
@@ -705,7 +705,7 @@ header{
 .hero-services{
     position:relative;
     z-index:5;
-
+transform:translateY(25px);
     max-width:1250px;
 
    margin:20px auto 0;
@@ -824,7 +824,7 @@ header{
 .hero-motto{
     position:relative;
     z-index:4;
-
+transform:translateY(25px);
     max-width:850px;
 
      margin:16px auto 0;
