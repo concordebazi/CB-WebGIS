@@ -148,7 +148,7 @@ header{
     position:relative;
     overflow:hidden;
 
-    padding:145px 55px 35px;
+   padding:115px 55px 22px;
 
     background:
     linear-gradient(
@@ -211,7 +211,7 @@ header{
     display:inline-flex;
     align-items:center;
 
-    margin-bottom:24px;
+   margin-bottom:18px;
 
     padding:9px 18px;
 
@@ -242,8 +242,8 @@ header{
 
     color:#ffffff;
 
-    font-size:62px;
-    line-height:1.03;
+    font-size:56px;
+    line-height:1.02;
 
     letter-spacing:-2px;
 }
@@ -268,12 +268,12 @@ header{
 .hero-text{
     max-width:610px;
 
-    margin-bottom:32px;
+    margin-bottom:24px;
 
     color:#c7d3df;
 
-    font-size:18px;
-    line-height:1.75;
+    font-size:17px;
+    line-height:1.65;
 }
 
 
@@ -361,7 +361,7 @@ header{
     position:relative;
 
     width:100%;
-    min-height:500px;
+    min-height:430px;
 
     display:flex;
     align-items:flex-end;
@@ -376,10 +376,10 @@ header{
 .hero-laptop{
     position:absolute;
 
-    width:500px;
+   width:470px;
 
-    left:55px;
-    bottom:45px;
+   left:55px;
+   bottom:30px;
 
     z-index:2;
 
@@ -501,7 +501,7 @@ header{
 
 
 .laptop-base{
-    width:550px;
+    width:515px;
     height:27px;
 
     margin-left:-25px;
@@ -525,12 +525,11 @@ header{
 .hero-map-card{
     position:absolute;
 
-    width:300px;
-    height:205px;
+     width:275px;
+    height:190px;
 
-   right:70px;
-   bottom:85px;
-
+    right:75px;
+    bottom:65px;
     overflow:hidden;
 
     z-index:4;
@@ -614,11 +613,10 @@ header{
 .hero-ai-card{
     position:absolute;
 
-    width:205px;
+    width:190px;
 
-    right:-35px;
-    top:25px;
-
+    right:-20px;
+    top:20px;
     z-index:6;
 
     padding:22px;
@@ -710,8 +708,7 @@ header{
 
     max-width:1250px;
 
-    margin:48px auto 0;
-
+   margin:20px auto 0;
     display:grid;
 
     grid-template-columns:
@@ -742,9 +739,9 @@ header{
 
     gap:18px;
 
-    min-height:125px;
+    min-height:105px;
 
-    padding:22px;
+    padding:18px 20px;
 
     border-right:
     1px solid rgba(255,255,255,0.09);
@@ -830,7 +827,7 @@ header{
 
     max-width:850px;
 
-    margin:25px auto 0;
+     margin:16px auto 0;
 
     display:flex;
 
