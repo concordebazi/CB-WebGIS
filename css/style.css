@@ -148,29 +148,28 @@ header{
     position:relative;
     overflow:hidden;
 
-    padding:145px 35px 35px;
+    padding:145px 55px 35px;
 
-   background:
-linear-gradient(
-    90deg,
-    rgba(3,12,25,0.98) 0%,
-    rgba(4,14,29,0.90) 34%,
-    rgba(5,18,38,0.55) 58%,
-    rgba(4,13,28,0.28) 100%
-),
-radial-gradient(
-    circle at 75% 25%,
-    rgba(17,177,255,0.22),
-    transparent 30%
-),
-radial-gradient(
-    circle at 90% 45%,
-    rgba(112,55,255,0.18),
-    transparent 30%
-),
-#06101d;
-    );
-   }
+    background:
+    linear-gradient(
+        90deg,
+        rgba(3,12,25,0.98) 0%,
+        rgba(4,14,29,0.90) 34%,
+        rgba(5,18,38,0.55) 58%,
+        rgba(4,13,28,0.28) 100%
+    ),
+    radial-gradient(
+        circle at 75% 25%,
+        rgba(17,177,255,0.22),
+        transparent 30%
+    ),
+    radial-gradient(
+        circle at 90% 45%,
+        rgba(112,55,255,0.18),
+        transparent 30%
+    ),
+    #06101d;
+}
 
 .hero-overlay{
     position:absolute;
@@ -194,17 +193,17 @@ radial-gradient(
     z-index:2;
 
     width:100%;
-    max-width:1280px;
+    max-width:1320px;
+
     margin:auto;
 
     display:grid;
-    grid-template-columns:0.92fr 1.08fr;
+    grid-template-columns:0.88fr 1.12fr;
 
     align-items:center;
 
-    gap:30px;
+    gap:20px;
 }
-
 
 /* ---------- HERO TEXT ---------- */
 
@@ -385,7 +384,7 @@ radial-gradient(
 
     width:500px;
 
-    left:20px;
+    left:55px;
     bottom:45px;
 
     z-index:2;
@@ -532,11 +531,11 @@ radial-gradient(
 .hero-map-card{
     position:absolute;
 
-    width:275px;
+    width:300px;
     height:205px;
 
-    right:95px;
-    bottom:100px;
+   right:70px;
+   bottom:85px;
 
     overflow:hidden;
 
@@ -623,8 +622,8 @@ radial-gradient(
 
     width:205px;
 
-    right:-15px;
-    top:45px;
+    right:-35px;
+    top:25px;
 
     z-index:6;
 
