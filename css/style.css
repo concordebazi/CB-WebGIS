@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600&display=swap');
 /* ==========================================
    CB WEB & GIS
    Modern Web Design + GIS Solutions
@@ -92,7 +93,7 @@ header{
 .nav-links a{
     color:#dce6f0;
     font-size:15px;
-    font-weight:500;
+    font-weight:400;
 
     transition:0.3s;
 }
