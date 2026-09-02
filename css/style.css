@@ -2791,6 +2791,111 @@ section h2{
 
 
 @media(max-width:600px){
+   /* ==========================================
+   MOBILE HERO
+========================================== */
+
+.hero{
+    min-height:auto;
+
+    padding:
+    115px 20px
+    45px;
+}
+
+
+/* remove desktop downward shift */
+
+.hero-content{
+    transform:none;
+
+    grid-template-columns:1fr;
+
+    gap:20px;
+}
+
+
+/* ---------- HERO TEXT ---------- */
+
+.hero-text-content{
+    width:100%;
+}
+
+
+.hero-badge{
+    max-width:100%;
+
+    margin-bottom:18px;
+
+    padding:8px 13px;
+
+    font-size:10px;
+    line-height:1.4;
+
+    letter-spacing:0.3px;
+}
+
+
+.hero h1{
+    max-width:100%;
+
+    margin-bottom:20px;
+
+    font-size:38px;
+    line-height:1.08;
+
+    letter-spacing:-1px;
+}
+
+
+.hero-text{
+    max-width:100%;
+
+    margin-bottom:24px;
+
+    font-size:16px;
+    line-height:1.65;
+}
+
+
+/* ---------- HERO BUTTONS ---------- */
+
+.hero-buttons{
+    display:grid;
+
+    grid-template-columns:1fr;
+
+    gap:12px;
+}
+
+
+.hero-buttons .btn{
+    width:100%;
+
+    min-height:52px;
+
+    padding:0 18px;
+}
+
+
+/* ---------- HERO IMAGE ---------- */
+
+.hero-visual{
+    min-height:auto;
+
+    margin-top:18px;
+    padding-bottom:0;
+}
+
+
+.hero-solutions-image{
+    width:100%;
+    max-width:520px;
+
+    transform:none;
+
+    margin:auto;
+}
    .footer-site-logo img{
     width:160px;
 }
