@@ -3003,3 +3003,79 @@ section h2{
 
     transform:none;
 }
+
+
+/* ==========================================
+   MOBILE HERO SERVICE CARDS
+========================================== */
+
+.hero-services{
+    grid-template-columns:
+    repeat(2, 1fr);
+
+    gap:10px;
+
+    margin:18px 0 0;
+
+    transform:none;
+
+    overflow:visible;
+
+    background:transparent;
+    border:none;
+    box-shadow:none;
+    backdrop-filter:none;
+}
+
+
+.hero-service-card{
+    min-height:120px;
+
+    padding:14px;
+
+    flex-direction:column;
+
+    align-items:flex-start;
+    justify-content:flex-start;
+
+    gap:10px;
+
+    border:
+    1px solid rgba(40,157,255,0.28) !important;
+
+    border-radius:14px;
+
+    background:
+    rgba(7,29,57,0.82);
+}
+
+
+.hero-service-icon{
+    min-width:44px;
+    width:44px;
+    height:44px;
+
+    font-size:20px;
+}
+
+
+.hero-ai-icon{
+    font-size:16px;
+}
+
+
+.hero-service-card h3{
+    margin-bottom:4px;
+
+    font-size:14px;
+}
+
+
+.hero-service-card p{
+    font-size:10.5px;
+    line-height:1.45;
+}
+
+
+/* closes @media(max-width:600px) */
+}
