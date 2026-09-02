@@ -4396,9 +4396,8 @@ section h2{
 }
 
 .contact-page .section-tag{
-    color:#55dfff;
+    color:#ffb347;
 }
-
 
 /* CONTACT FORM SECTION */
 
@@ -4715,4 +4714,47 @@ section h2{
         line-height:1.7;
     }
 
+}
+/* CONTACT HERO BUTTON */
+
+.contact-page .contact-hero .primary-btn{
+    background:
+    linear-gradient(
+        135deg,
+        #ff7a45,
+        #ffb347
+    );
+
+    color:#1b0d08;
+
+    box-shadow:
+    0 15px 35px rgba(255,122,69,0.22);
+}
+
+.contact-page .contact-hero .primary-btn:hover{
+    background:
+    linear-gradient(
+        135deg,
+        #ff8d5c,
+        #ffc166
+    );
+
+    box-shadow:
+    0 20px 45px rgba(255,122,69,0.32);
+}
+/* CONTACT HERO SECONDARY BUTTON */
+
+.contact-page .contact-hero .secondary-btn{
+    border-color:rgba(255,179,71,0.35);
+
+    background:rgba(38,13,17,0.55);
+}
+
+.contact-page .contact-hero .secondary-btn:hover{
+    border-color:#ffb347;
+
+    background:rgba(255,179,71,0.08);
+
+    box-shadow:
+    0 12px 30px rgba(255,122,69,0.12);
 }
