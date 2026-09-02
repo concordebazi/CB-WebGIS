@@ -3334,3 +3334,198 @@ section h2{
     line-height:1.6;
 }
 }
+/* ==========================================
+   WEB DESIGN PAGE
+========================================== */
+
+.subpage-hero{
+    position:relative;
+
+    min-height:620px;
+
+    display:flex;
+    align-items:center;
+
+    padding:150px 55px 90px;
+
+    background:
+    radial-gradient(
+        circle at 75% 40%,
+        rgba(0,210,255,0.15),
+        transparent 32%
+    ),
+    linear-gradient(
+        135deg,
+        #06101d 0%,
+        #091a2e 55%,
+        #07111f 100%
+    );
+}
+
+.subpage-hero-content{
+    width:100%;
+    max-width:1200px;
+
+    margin:0 auto;
+}
+
+.subpage-hero h1{
+    max-width:760px;
+
+    margin:14px 0 24px;
+
+    font-family:'Manrope', sans-serif;
+
+    font-size:64px;
+    font-weight:500;
+
+    line-height:1.05;
+    letter-spacing:-2px;
+
+    color:#ffffff;
+}
+
+.subpage-hero-content > p:not(.section-tag){
+    max-width:680px;
+
+    margin-bottom:30px;
+
+    font-size:18px;
+    line-height:1.7;
+
+    color:#b9c7d8;
+}
+
+
+/* WEB SERVICES */
+
+.web-services-section{
+    padding:100px 0;
+
+    background:#081524;
+}
+
+
+/* WHY CB WEB & GIS */
+
+.web-benefits-section{
+    padding:100px 0;
+
+    background:#06101d;
+}
+
+
+/* FINAL CTA */
+
+.web-cta-section{
+    padding:90px 0;
+
+    background:#081524;
+}
+
+.web-cta-card{
+    max-width:950px;
+
+    margin:0 auto;
+
+    padding:65px 50px;
+
+    text-align:center;
+
+    border:
+    1px solid rgba(40,157,255,0.28);
+
+    border-radius:22px;
+
+    background:
+    linear-gradient(
+        135deg,
+        rgba(13,42,70,0.95),
+        rgba(15,27,53,0.95)
+    );
+
+    box-shadow:
+    0 25px 70px rgba(0,0,0,0.25);
+}
+
+.web-cta-card h2{
+    max-width:700px;
+
+    margin:10px auto 20px;
+
+    font-size:42px;
+    line-height:1.15;
+}
+
+.web-cta-card p{
+    max-width:650px;
+
+    margin:0 auto 28px;
+
+    color:#b9c7d8;
+
+    font-size:16px;
+    line-height:1.7;
+}
+/* ==========================================
+   WEB DESIGN PAGE - MOBILE
+========================================== */
+
+@media(max-width:600px){
+
+    .subpage-hero{
+        min-height:auto;
+
+        padding:
+        135px 20px
+        70px;
+    }
+
+    .subpage-hero h1{
+        max-width:100%;
+
+        margin:12px 0 20px;
+
+        font-size:38px;
+        line-height:1.08;
+
+        letter-spacing:-1.2px;
+    }
+
+    .subpage-hero-content > p:not(.section-tag){
+        max-width:100%;
+
+        margin-bottom:24px;
+
+        font-size:15px;
+        line-height:1.65;
+    }
+
+
+    .web-services-section,
+    .web-benefits-section{
+        padding:70px 0;
+    }
+
+
+    .web-cta-section{
+        padding:70px 0;
+    }
+
+    .web-cta-card{
+        padding:36px 20px;
+
+        border-radius:16px;
+    }
+
+    .web-cta-card h2{
+        font-size:30px;
+        line-height:1.15;
+    }
+
+    .web-cta-card p{
+        font-size:14px;
+        line-height:1.65;
+    }
+
+}
