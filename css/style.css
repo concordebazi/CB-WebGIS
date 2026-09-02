@@ -3655,3 +3655,52 @@ section h2{
     box-shadow:
     0 22px 55px rgba(91, 54, 180, 0.20);
 }
+/* ==========================================
+   AI PAGE CTA
+========================================== */
+
+.ai-page .web-benefits-section{
+    background:#100c22;
+}
+
+.ai-page .web-cta-section{
+    background:#090817;
+}
+
+.ai-page .web-cta-card{
+    border:
+    1px solid rgba(174,111,255,0.38);
+
+    background:
+    radial-gradient(
+        circle at 80% 20%,
+        rgba(89,91,255,0.22),
+        transparent 35%
+    ),
+    linear-gradient(
+        135deg,
+        rgba(46,24,82,0.97),
+        rgba(12,25,52,0.97)
+    );
+
+    box-shadow:
+    0 25px 70px rgba(72,38,145,0.25);
+}
+
+.ai-page .web-cta-card .primary-btn{
+    background:
+    linear-gradient(
+        135deg,
+        #8b5cf6,
+        #3b82f6
+    );
+
+    border-color:transparent;
+}
+
+.ai-page .web-cta-card .primary-btn:hover{
+    transform:translateY(-2px);
+
+    box-shadow:
+    0 12px 30px rgba(111,76,255,0.35);
+}
