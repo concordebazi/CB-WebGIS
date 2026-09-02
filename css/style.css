@@ -2792,114 +2792,7 @@ section h2{
 
 @media(max-width:600px){
    
-   /* ==========================================
-   MOBILE HERO
-========================================== */
-.hero-network{
-    display:none;
-}
-   
-.hero{
-    min-height:auto;
 
-    padding:
-    115px 20px
-    45px;
-}
-
-
-/* remove desktop downward shift */
-
-.hero-content{
-    transform:none;
-
-    grid-template-columns:1fr;
-
-    gap:20px;
-}
-
-
-/* ---------- HERO TEXT ---------- */
-
-.hero-text-content{
-    width:100%;
-}
-
-
-.hero-badge{
-    max-width:100%;
-
-    margin-bottom:18px;
-
-    padding:8px 13px;
-
-    font-size:10px;
-    line-height:1.4;
-
-    letter-spacing:0.3px;
-}
-
-
-.hero h1{
-    max-width:100%;
-
-    margin-bottom:20px;
-
-    font-size:38px;
-    line-height:1.08;
-
-    letter-spacing:-1px;
-}
-
-
-.hero-text{
-    max-width:100%;
-
-    margin-bottom:24px;
-
-    font-size:16px;
-    line-height:1.65;
-}
-
-
-/* ---------- HERO BUTTONS ---------- */
-
-.hero-buttons{
-    display:grid;
-
-    grid-template-columns:1fr;
-
-    gap:12px;
-}
-
-
-.hero-buttons .btn{
-    width:100%;
-
-    min-height:52px;
-
-    padding:0 18px;
-}
-
-
-/* ---------- HERO IMAGE ---------- */
-
-.hero-visual{
-    min-height:auto;
-
-    margin-top:18px;
-    padding-bottom:0;
-}
-
-
-.hero-solutions-image{
-    width:100%;
-    max-width:520px;
-
-    transform:none;
-
-    margin:auto;
-}
    .footer-site-logo img{
     width:160px;
 }
@@ -3001,17 +2894,7 @@ section h2{
         display:none;
     }
 
-    .hero{
-        padding-top:120px;
-    }
-
-    .hero h1{
-        font-size:38px;
-    }
-
-    .hero-text{
-        font-size:17px;
-    }
+   
 
     section h2{
         font-size:34px;
@@ -3020,83 +2903,103 @@ section h2{
    COMPACT MOBILE HERO
 ========================================== */
 
-.hero{
-    padding:
-    105px 18px
-    32px;
+.hero-network{
+    display:none;
 }
 
+.hero{
+    min-height:auto;
 
-/* Let mobile choose its own line wrapping */
+    padding:
+    145px 18px
+    32px;
+
+    background-position:center top;
+}
+
+.hero-content{
+    transform:none;
+
+    grid-template-columns:1fr;
+
+    gap:18px;
+}
+
+.hero-text-content{
+    width:100%;
+}
+
+.hero-badge{
+    max-width:100%;
+
+    margin-bottom:18px;
+
+    padding:8px 12px;
+
+    font-size:9px;
+    line-height:1.4;
+
+    white-space:nowrap;
+}
 
 .hero h1 br{
     display:none;
 }
 
-
 .hero h1{
     max-width:100%;
 
-    margin-bottom:18px;
+    margin-bottom:20px;
 
-    font-size:34px;
+    font-size:33px;
     font-weight:500;
 
     line-height:1.12;
     letter-spacing:-1px;
 }
 
-
-/* Keep AI on its own visual line */
-
-.hero-ai-text{
-    display:inline;
-}
-
-
-/* Smaller introduction */
-
 .hero-text{
+    max-width:100%;
+
     margin-bottom:20px;
 
     font-size:15px;
     line-height:1.55;
 }
 
-
-/* Buttons stay compact */
-
 .hero-buttons{
+    display:grid;
+
     grid-template-columns:1fr 1fr;
 
     gap:10px;
 }
 
-
 .hero-buttons .btn{
+    width:100%;
+
     min-height:48px;
 
-    padding:0 10px;
+    padding:0 8px;
 
-    font-size:13px;
+    font-size:12px;
 }
-
-
-/* Make the visual much smaller on phones */
 
 .hero-visual{
     min-height:0;
 
     margin-top:14px;
+
+    padding-bottom:0;
 }
 
-
 .hero-solutions-image{
+    display:block;
+
     width:100%;
-    max-width:360px;
+    max-width:340px;
 
     margin:0 auto;
 
     transform:none;
-}
 }
