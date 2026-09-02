@@ -4155,20 +4155,26 @@ section h2{
 .about-page .subpage-hero{
     background:
     radial-gradient(
-        circle at 78% 38%,
-        rgba(84, 135, 255, 0.18),
-        transparent 34%
+        circle at 78% 35%,
+        rgba(190, 242, 100, 0.22),
+        transparent 32%
+    ),
+    radial-gradient(
+        circle at 60% 75%,
+        rgba(132, 160, 67, 0.14),
+        transparent 30%
     ),
     linear-gradient(
         135deg,
-        #08111d 0%,
-        #101c32 52%,
-        #07111f 100%
+        #0d1009 0%,
+        #1b2410 48%,
+        #293417 75%,
+        #0c1110 100%
     );
 }
 
 .about-page .section-tag{
-    color:#8fb3ff;
+    color:#bef264;
 }
 
 
@@ -4757,4 +4763,47 @@ section h2{
 
     box-shadow:
     0 12px 30px rgba(255,122,69,0.12);
+}
+/* ABOUT HERO PRIMARY BUTTON */
+
+.about-page .subpage-hero .primary-btn{
+    background:
+    linear-gradient(
+        135deg,
+        #a3e635,
+        #bef264
+    );
+
+    color:#101508;
+
+    box-shadow:
+    0 15px 35px rgba(190,242,100,0.20);
+}
+
+.about-page .subpage-hero .primary-btn:hover{
+    background:
+    linear-gradient(
+        135deg,
+        #bef264,
+        #d9f99d
+    );
+
+    box-shadow:
+    0 20px 45px rgba(190,242,100,0.30);
+}
+/* ABOUT HERO SECONDARY BUTTON */
+
+.about-page .subpage-hero .secondary-btn{
+    border-color:rgba(190,242,100,0.35);
+
+    background:rgba(22,30,12,0.55);
+}
+
+.about-page .subpage-hero .secondary-btn:hover{
+    border-color:#bef264;
+
+    background:rgba(190,242,100,0.08);
+
+    box-shadow:
+    0 12px 30px rgba(163,230,53,0.12);
 }
