@@ -4038,3 +4038,113 @@ section h2{
         rgba(7,24,35,0.96)
     );
 }
+/* ==========================================
+   PROJECTS - LOCATION ANALYSIS CASE STUDY
+========================================== */
+
+.analysis-case-study{
+    margin-top:80px;
+}
+
+.analysis-case-study .case-study-visual{
+    border-color:rgba(255,190,99,0.30);
+
+    background:
+    linear-gradient(
+        145deg,
+        rgba(48,31,14,0.96),
+        rgba(15,22,34,0.96)
+    );
+}
+
+.analysis-project-screen{
+    background:
+    radial-gradient(
+        circle at 50% 60%,
+        rgba(255,190,99,0.16),
+        transparent 45%
+    ),
+    linear-gradient(
+        145deg,
+        #15100a,
+        #101827
+    );
+}
+
+.analysis-project-screen .case-label{
+    color:#ffbe63;
+}
+
+
+/* ANALYSIS CHART */
+
+.analysis-demo{
+    width:240px;
+    height:110px;
+
+    display:flex;
+    align-items:flex-end;
+    justify-content:center;
+
+    gap:14px;
+
+    margin-top:18px;
+    padding:15px 20px;
+
+    border-left:1px solid rgba(255,255,255,0.18);
+    border-bottom:1px solid rgba(255,255,255,0.18);
+}
+
+.analysis-bar{
+    width:30px;
+
+    border-radius:5px 5px 0 0;
+
+    background:
+    linear-gradient(
+        180deg,
+        #ffcf75,
+        #d88928
+    );
+
+    box-shadow:
+    0 0 18px rgba(255,190,99,0.18);
+}
+
+.bar-a{
+    height:38%;
+}
+
+.bar-b{
+    height:68%;
+}
+
+.bar-c{
+    height:52%;
+}
+
+.bar-d{
+    height:88%;
+}
+
+
+/* MOBILE */
+
+@media(max-width:600px){
+
+    .gis-case-study,
+    .analysis-case-study{
+        margin-top:55px;
+    }
+
+    .analysis-demo{
+        width:200px;
+        height:95px;
+        gap:10px;
+    }
+
+    .analysis-bar{
+        width:25px;
+    }
+
+}
