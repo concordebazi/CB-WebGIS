@@ -3888,3 +3888,55 @@ section h2{
 
     font-size:14px;
 }
+/* ==========================================
+   PROJECTS PAGE - MOBILE
+========================================== */
+
+@media(max-width:600px){
+
+    .featured-projects-section{
+        padding:70px 0;
+    }
+
+    .featured-case-study{
+        grid-template-columns:1fr;
+        gap:28px;
+        margin-top:30px;
+    }
+
+    .case-study-visual{
+        min-height:auto;
+        padding:20px;
+        border-radius:16px;
+    }
+
+    .case-browser-screen{
+        min-height:240px;
+        padding:24px 16px;
+    }
+
+    .case-browser-screen h3{
+        font-size:26px;
+    }
+
+    .case-study-content h2{
+        font-size:30px;
+        line-height:1.15;
+    }
+
+    .case-study-content > p{
+        font-size:14px;
+        line-height:1.65;
+    }
+
+    .case-study-features{
+        grid-template-columns:1fr;
+        gap:10px;
+        margin:22px 0;
+    }
+
+    .case-study-features span{
+        font-size:13px;
+    }
+
+}
