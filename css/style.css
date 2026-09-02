@@ -4377,20 +4377,21 @@ section h2{
 .contact-page .subpage-hero{
     background:
     radial-gradient(
-        circle at 78% 38%,
-        rgba(0,210,255,0.18),
+        circle at 78% 35%,
+        rgba(255, 112, 67, 0.28),
         transparent 32%
     ),
     radial-gradient(
-        circle at 65% 70%,
-        rgba(126,65,180,0.14),
+        circle at 62% 75%,
+        rgba(255, 179, 71, 0.16),
         transparent 30%
     ),
     linear-gradient(
         135deg,
-        #06101d 0%,
-        #0b2034 52%,
-        #07111f 100%
+        #16090d 0%,
+        #35121b 48%,
+        #3b1c12 75%,
+        #10101a 100%
     );
 }
 
