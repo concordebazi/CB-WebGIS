@@ -2795,7 +2795,10 @@ section h2{
    /* ==========================================
    MOBILE HERO
 ========================================== */
-
+.hero-network{
+    display:none;
+}
+   
 .hero{
     min-height:auto;
 
