@@ -3137,4 +3137,52 @@ section h2{
     font-size:14px;
     line-height:1.6;
 }
+   /* ==========================================
+   MOBILE GIS SECTION
+========================================== */
+
+.gis-section{
+    padding-top:70px;
+    padding-bottom:70px;
+}
+
+.gis-layout{
+    grid-template-columns:1fr;
+    gap:30px;
+}
+
+.gis-content h2{
+    font-size:34px;
+    line-height:1.2;
+}
+
+.gis-features{
+    gap:14px;
+    margin:24px 0 28px;
+}
+
+.gis-feature{
+    gap:12px;
+}
+
+.gis-feature p{
+    font-size:14px;
+    line-height:1.6;
+}
+
+.gis-map-card{
+    border-radius:14px;
+}
+
+.gis-map-header{
+    padding:18px;
+}
+
+.gis-map-header h3{
+    font-size:18px;
+}
+
+.gis-map-preview{
+    height:300px;
+}
 }
