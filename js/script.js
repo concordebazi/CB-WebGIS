@@ -57,3 +57,60 @@ if (menuToggle && navLinks) {
     );
 
 }
+/* ==========================================
+   CONTACT FORM SUBMISSION
+========================================== */
+
+const contactForm =
+document.querySelector(".contact-form");
+
+if (contactForm) {
+
+    contactForm.addEventListener(
+        "submit",
+        async function (event) {
+
+            event.preventDefault();
+
+            const formData =
+            new FormData(contactForm);
+
+            try {
+
+                const response =
+                await fetch(
+                    contactForm.action,
+                    {
+                        method: "POST",
+                        body: formData,
+                        headers: {
+                            "Accept": "application/json"
+                        }
+                    }
+                );
+
+                if (response.ok) {
+
+                    window.location.href =
+                    "thank-you.html";
+
+                } else {
+
+                    alert(
+                        "Something went wrong. Please try again."
+                    );
+
+                }
+
+            } catch (error) {
+
+                alert(
+                    "Something went wrong. Please try again."
+                );
+
+            }
+
+        }
+    );
+
+}
