@@ -4815,21 +4815,21 @@ section h2{
 
     background:
     radial-gradient(
-        circle at 78% 35%,
-        rgba(0, 229, 255, 0.20),
-        transparent 32%
+        circle at 80% 30%,
+        rgba(255, 64, 160, 0.22),
+        transparent 30%
     ),
     radial-gradient(
-        circle at 62% 75%,
-        rgba(45, 125, 255, 0.16),
-        transparent 30%
+        circle at 65% 75%,
+        rgba(236, 72, 153, 0.16),
+        transparent 28%
     ),
     linear-gradient(
         135deg,
-        #04131d 0%,
-        #08283a 48%,
-        #093c4b 75%,
-        #07111f 100%
+        #070b1f 0%,
+        #15112f 42%,
+        #2a1036 72%,
+        #090b16 100%
     );
 
 }
