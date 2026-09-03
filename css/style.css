@@ -5033,3 +5033,23 @@ section h2{
 
     transform:translateY(5px);
 }
+/* ---------- GIS HERO MOBILE ---------- */
+
+@media(max-width:900px){
+
+    .gis-hero{
+        grid-template-columns:1fr;
+        gap:30px;
+    }
+
+    .gis-hero-visual{
+        min-height:auto;
+        margin-top:10px;
+    }
+
+    .gis-hero-image{
+        max-width:460px;
+        margin:0 auto;
+    }
+
+}
