@@ -4807,3 +4807,84 @@ section h2{
     box-shadow:
     0 12px 30px rgba(163,230,53,0.12);
 }
+/* ==========================================
+   LOCATION ANALYSIS PAGE
+========================================== */
+
+.location-analysis-page .subpage-hero{
+
+    background:
+    radial-gradient(
+        circle at 78% 35%,
+        rgba(0, 229, 255, 0.20),
+        transparent 32%
+    ),
+    radial-gradient(
+        circle at 62% 75%,
+        rgba(45, 125, 255, 0.16),
+        transparent 30%
+    ),
+    linear-gradient(
+        135deg,
+        #04131d 0%,
+        #08283a 48%,
+        #093c4b 75%,
+        #07111f 100%
+    );
+
+}
+
+
+.location-analysis-page .section-tag{
+
+    color:#67e8f9;
+
+}
+
+
+.location-analysis-page .web-services-section{
+
+    background:#06141e;
+
+}
+
+
+.location-analysis-page .service-card{
+
+    border:1px solid rgba(103,232,249,0.25);
+
+    background:
+    linear-gradient(
+        145deg,
+        rgba(8,42,55,0.96),
+        rgba(7,24,36,0.96)
+    );
+
+    box-shadow:
+    0 18px 45px rgba(0,0,0,0.20);
+
+}
+
+
+.location-analysis-page .service-icon{
+
+    background:
+    rgba(103,232,249,0.10);
+
+    border:
+    1px solid rgba(103,232,249,0.28);
+
+}
+
+
+.location-analysis-page .service-card:hover{
+
+    transform:translateY(-6px);
+
+    border-color:
+    rgba(103,232,249,0.60);
+
+    box-shadow:
+    0 22px 55px rgba(0,180,220,0.14);
+
+}
