@@ -4980,3 +4980,23 @@ section h2{
     0 22px 55px rgba(0,180,220,0.14);
 
 }
+/* ---------- WEB HERO MOBILE ---------- */
+
+@media(max-width:900px){
+
+    .web-page .subpage-hero{
+        grid-template-columns:1fr;
+        gap:30px;
+    }
+
+    .web-hero-visual{
+        min-height:auto;
+        margin-top:10px;
+    }
+
+    .web-hero-image{
+        max-width:460px;
+        margin:0 auto;
+    }
+
+}
