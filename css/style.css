@@ -5053,3 +5053,20 @@ section h2{
     }
 
 }
+/* ---------- AI HERO LAYOUT ---------- */
+
+.ai-hero{
+    display:grid;
+    grid-template-columns:1.05fr 0.95fr;
+    align-items:center;
+    gap:50px;
+}
+
+.ai-hero-visual{
+    width:100%;
+    min-height:360px;
+
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
