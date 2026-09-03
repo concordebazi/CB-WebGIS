@@ -5139,3 +5139,20 @@ section h2{
 
     transform:translateY(5px);
 }
+/* ---------- ABOUT HERO LAYOUT ---------- */
+
+.about-hero{
+    display:grid;
+    grid-template-columns:1.05fr 0.95fr;
+    align-items:center;
+    gap:50px;
+}
+
+.about-hero-visual{
+    width:100%;
+    min-height:360px;
+
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
