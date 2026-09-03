@@ -3365,8 +3365,30 @@ section h2{
 .subpage-hero-content{
     width:100%;
     max-width:1200px;
-
     margin:0 auto;
+}
+.web-page .subpage-hero{
+    display:grid;
+    grid-template-columns:1.05fr 0.95fr;
+    align-items:center;
+    gap:50px;
+}
+
+.web-hero-visual{
+    width:100%;
+    min-height:360px;
+
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+.web-hero-visual{
+    width:100%;
+    min-height:360px;
+
+    display:flex;
+    align-items:center;
+    justify-content:center;
 }
 
 .subpage-hero h1{
