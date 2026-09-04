@@ -5627,3 +5627,66 @@ section h2{
     }
 
 }
+/* ==========================================
+   LOCATION ANALYSIS HERO VISUAL
+========================================== */
+
+.location-analysis-hero{
+    display:grid;
+    grid-template-columns:minmax(0, 1.05fr) minmax(0, 0.95fr);
+    align-items:center;
+    gap:50px;
+}
+
+.location-analysis-hero .subpage-hero-content{
+    width:100%;
+    max-width:700px;
+    margin:0;
+}
+
+.location-analysis-hero-visual{
+    width:100%;
+    min-width:0;
+    min-height:360px;
+
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+
+.location-analysis-hero-image{
+    display:block;
+
+    width:100%;
+    max-width:560px;
+    height:auto;
+
+    object-fit:contain;
+
+    filter:
+        drop-shadow(0 25px 35px rgba(0,0,0,0.30));
+
+    transform:translateY(5px);
+}
+
+
+/* ---------- LOCATION ANALYSIS HERO MOBILE ---------- */
+
+@media(max-width:900px){
+
+    .location-analysis-hero{
+        grid-template-columns:1fr;
+        gap:30px;
+    }
+
+    .location-analysis-hero-visual{
+        min-height:auto;
+        margin-top:10px;
+    }
+
+    .location-analysis-hero-image{
+        max-width:460px;
+        margin:0 auto;
+    }
+
+}
