@@ -5690,3 +5690,27 @@ section h2{
     }
 
 }
+/* ==========================================
+   PROJECTS HERO MOBILE FIX
+========================================== */
+
+@media(max-width:900px){
+
+    .projects-hero{
+        grid-template-columns:1fr;
+        gap:30px;
+    }
+
+    .projects-hero-visual{
+        width:100%;
+        min-height:auto;
+        margin-top:15px;
+    }
+
+    .projects-hero-image{
+        width:100%;
+        max-width:500px;
+        margin:0 auto;
+    }
+
+}
