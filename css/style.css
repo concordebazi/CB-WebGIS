@@ -5534,3 +5534,20 @@ section h2{
     }
 
 }
+/* ---------- ALTERNATE PRICING SECTION ---------- */
+
+.pricing-section-alt{
+    background:
+    linear-gradient(
+        135deg,
+        #06101b 0%,
+        #0b1823 50%,
+        #07131c 100%
+    );
+
+    border-top:
+    1px solid rgba(255,255,255,0.05);
+
+    border-bottom:
+    1px solid rgba(255,255,255,0.05);
+}
