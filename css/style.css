@@ -5551,3 +5551,79 @@ section h2{
     border-bottom:
     1px solid rgba(255,255,255,0.05);
 }
+/* ==========================================
+   PRICING NOTE
+========================================== */
+
+.pricing-note-section{
+    padding:90px 0;
+    background:#060d17;
+}
+
+.pricing-note{
+    max-width:900px;
+    margin:0 auto;
+    padding:55px 45px;
+
+    text-align:center;
+
+    border:
+    1px solid rgba(251,191,36,0.25);
+
+    border-radius:22px;
+
+    background:
+    linear-gradient(
+        135deg,
+        rgba(24,34,51,0.96),
+        rgba(38,27,12,0.92)
+    );
+
+    box-shadow:
+    0 25px 65px rgba(0,0,0,0.25);
+}
+
+.pricing-note h2{
+    margin-bottom:20px;
+
+    font-size:38px;
+    line-height:1.15;
+
+    color:#ffffff;
+}
+
+.pricing-note p{
+    max-width:720px;
+    margin:0 auto 16px;
+
+    color:#b8c4d1;
+    line-height:1.7;
+}
+
+.pricing-note .btn{
+    margin-top:18px;
+}
+
+
+/* ---------- PRICING NOTE MOBILE ---------- */
+
+@media(max-width:600px){
+
+    .pricing-note-section{
+        padding:70px 0;
+    }
+
+    .pricing-note{
+        padding:38px 20px;
+        border-radius:18px;
+    }
+
+    .pricing-note h2{
+        font-size:30px;
+    }
+
+    .pricing-note p{
+        font-size:15px;
+    }
+
+}
