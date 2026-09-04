@@ -5264,3 +5264,85 @@ section h2{
     }
 
 }
+/* ==========================================
+   PRICING PAGE
+========================================== */
+
+/* ---------- PRICING HERO ---------- */
+
+.pricing-page .pricing-hero{
+
+    background:
+    radial-gradient(
+        circle at 78% 35%,
+        rgba(245, 158, 11, 0.22),
+        transparent 32%
+    ),
+    radial-gradient(
+        circle at 62% 75%,
+        rgba(251, 191, 36, 0.12),
+        transparent 30%
+    ),
+    linear-gradient(
+        135deg,
+        #0b1018 0%,
+        #172033 48%,
+        #33230d 78%,
+        #0b1018 100%
+    );
+
+}
+
+.pricing-page .section-tag{
+    color:#fbbf24;
+}
+
+
+/* ---------- PRICING HERO BUTTONS ---------- */
+
+.pricing-page .pricing-hero .primary-btn{
+
+    background:
+    linear-gradient(
+        135deg,
+        #f59e0b,
+        #fbbf24
+    );
+
+    color:#161006;
+    border-color:transparent;
+
+    box-shadow:
+    0 15px 35px rgba(245,158,11,0.22);
+
+}
+
+
+.pricing-page .pricing-hero .primary-btn:hover{
+
+    background:
+    linear-gradient(
+        135deg,
+        #fbbf24,
+        #fcd34d
+    );
+
+    transform:translateY(-2px);
+
+}
+
+
+.pricing-page .pricing-hero .secondary-btn{
+
+    border-color:rgba(251,191,36,0.35);
+    background:rgba(35,25,10,0.45);
+
+}
+
+
+.pricing-page .pricing-hero .secondary-btn:hover{
+
+    border-color:#fbbf24;
+    background:rgba(251,191,36,0.08);
+
+}
