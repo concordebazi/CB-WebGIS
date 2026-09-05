@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+    <url>
+        <loc>https://cbwebgis.se/</loc>
+    </url>
+
+    <url>
+        <loc>https://cbwebgis.se/web/</loc>
+    </url>
+
+    <url>
+        <loc>https://cbwebgis.se/gis/</loc>
+    </url>
+
+    <url>
+        <loc>https://cbwebgis.se/gis/location-analysis/</loc>
+    </url>
+
+    <url>
+        <loc>https://cbwebgis.se/ai/</loc>
+    </url>
+
+    <url>
+        <loc>https://cbwebgis.se/projects/</loc>
+    </url>
+
+    <url>
+        <loc>https://cbwebgis.se/pricing/</loc>
+    </url>
+
+    <url>
+        <loc>https://cbwebgis.se/about/</loc>
+    </url>
+
+    <url>
+        <loc>https://cbwebgis.se/contact/</loc>
+    </url>
+      <url>
+        <loc>https://cbwebgis.se/sv/</loc>
+    </url>
+
+    <url>
+        <loc>https://cbwebgis.se/sv/web/</loc>
+    </url>
+
+    <url>
+        <loc>https://cbwebgis.se/sv/gis/</loc>
+    </url>
+
+    <url>
+        <loc>https://cbwebgis.se/sv/gis/location-analysis/</loc>
+    </url>
+
+    <url>
+        <loc>https://cbwebgis.se/sv/ai/</loc>
+    </url>
+
+    <url>
+        <loc>https://cbwebgis.se/sv/projects/</loc>
+    </url>
+
+    <url>
+        <loc>https://cbwebgis.se/sv/pricing/</loc>
+    </url>
+
+    <url>
+        <loc>https://cbwebgis.se/sv/about/</loc>
+    </url>
+
+    <url>
+        <loc>https://cbwebgis.se/sv/contact/</loc>
+    </url>
+
+</urlset>
