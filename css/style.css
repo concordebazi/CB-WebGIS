@@ -159,7 +159,7 @@ header{
         rgba(5,18,38,0.56) 58%,
         rgba(4,13,28,0.22) 100%
     ),
-    url("../images/hero-city.jpg");
+    url("../images/hero-city.webp");
 
     background-size:cover;
     background-position:center;
