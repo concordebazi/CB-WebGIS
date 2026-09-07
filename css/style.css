@@ -5714,3 +5714,54 @@ section h2{
     }
 
 }
+/* ==========================================
+   404 ERROR PAGE
+========================================== */
+
+.error-page {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 20px;
+    text-align: center;
+    background:
+        radial-gradient(circle at top, rgba(36, 211, 190, 0.12), transparent 35%),
+        #07111f;
+}
+
+.error-content {
+    max-width: 650px;
+    margin: 0 auto;
+}
+
+.error-code {
+    font-size: clamp(90px, 18vw, 180px);
+    font-weight: 700;
+    line-height: 1;
+    margin-bottom: 20px;
+    background: linear-gradient(90deg, #27d3be, #8b5cf6);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.error-content h1 {
+    color: #ffffff;
+    font-size: clamp(32px, 5vw, 52px);
+    margin-bottom: 20px;
+}
+
+.error-content p {
+    color: #b8c2d1;
+    font-size: 18px;
+    line-height: 1.7;
+    margin: 0 auto 32px;
+    max-width: 540px;
+}
+
+.error-content .btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+}
