@@ -5765,3 +5765,43 @@ section h2{
     align-items: center;
     gap: 10px;
 }
+/* ==========================================
+   LOCAL WEB DESIGN LINK
+========================================== */
+
+.local-web-link {
+    margin: 32px 0 40px;
+    display: flex;
+    align-items: center;
+    gap: 18px;
+    flex-wrap: wrap;
+}
+
+.local-web-link span {
+    color: #cbd5e1;
+    font-size: 16px;
+}
+
+.local-web-link a {
+    display: inline-flex;
+    align-items: center;
+    padding: 11px 20px;
+
+    color: #22d3ee;
+    background: rgba(34, 211, 238, 0.08);
+
+    border: 1px solid rgba(34, 211, 238, 0.55);
+    border-radius: 999px;
+
+    font-weight: 600;
+    text-decoration: none;
+
+    transition: 0.25s ease;
+}
+
+.local-web-link a:hover {
+    color: #06111f;
+    background: #22d3ee;
+    border-color: #22d3ee;
+    transform: translateY(-2px);
+}
