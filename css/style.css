@@ -5805,3 +5805,21 @@ section h2{
     border-color: #22d3ee;
     transform: translateY(-2px);
 }
+.projects-hero .demo-btn {
+    background: transparent;
+    color: #59c3ff;
+
+    border: 1px solid rgba(89, 195, 255, 0.55);
+
+    transition:
+        background 0.25s ease,
+        color 0.25s ease,
+        transform 0.25s ease;
+}
+
+.projects-hero .demo-btn:hover {
+    background: #59c3ff;
+    color: #07111f;
+
+    transform: translateY(-2px);
+}
