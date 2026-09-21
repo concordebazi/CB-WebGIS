@@ -5823,3 +5823,123 @@ section h2{
 
     transform: translateY(-2px);
 }
+/* ==========================================
+   COOKIE CONSENT BANNER
+========================================== */
+
+.cookie-banner {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    left: 20px;
+    z-index: 9999;
+
+    display: none;
+
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 22px;
+
+    color: #ffffff;
+    background: rgba(4, 18, 28, 0.98);
+    border: 1px solid rgba(25, 211, 218, 0.35);
+    border-radius: 16px;
+    box-shadow: 0 16px 45px rgba(0, 0, 0, 0.45);
+}
+
+.cookie-banner.show {
+    display: block;
+}
+
+.cookie-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.cookie-text h2 {
+    margin: 0 0 8px;
+    color: #19d3da;
+    font-size: 1.2rem;
+}
+
+.cookie-text p {
+    max-width: 720px;
+    margin: 4px 0;
+    color: #e3edf2;
+    font-size: 0.94rem;
+    line-height: 1.5;
+}
+
+.cookie-english {
+    color: #aebdc5 !important;
+}
+
+.cookie-actions {
+    display: flex;
+    flex-shrink: 0;
+    gap: 12px;
+}
+
+.cookie-btn {
+    padding: 11px 18px;
+    border: 1px solid #19d3da;
+    border-radius: 8px;
+    cursor: pointer;
+    font: inherit;
+    font-weight: 700;
+    transition:
+        background-color 0.2s ease,
+        color 0.2s ease,
+        transform 0.2s ease;
+}
+
+.cookie-btn:hover {
+    transform: translateY(-2px);
+}
+
+.cookie-reject {
+    color: #ffffff;
+    background: transparent;
+}
+
+.cookie-accept {
+    color: #031219;
+    background: #19d3da;
+}
+
+.cookie-reject:hover {
+    color: #031219;
+    background: #ffffff;
+    border-color: #ffffff;
+}
+
+.cookie-accept:hover {
+    background: #6cf5f5;
+}
+
+@media (max-width: 700px) {
+    .cookie-banner {
+        right: 12px;
+        bottom: 12px;
+        left: 12px;
+        padding: 18px;
+    }
+
+    .cookie-content {
+        align-items: stretch;
+        flex-direction: column;
+        gap: 18px;
+    }
+
+    .cookie-actions {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .cookie-btn {
+        padding: 12px 8px;
+        font-size: 0.85rem;
+    }
+}
