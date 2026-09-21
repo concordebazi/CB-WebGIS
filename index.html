@@ -525,7 +525,78 @@ content="Professional web design, interactive maps and GIS solutions for small b
 
     </div>
 </div>
+<script>
+document.addEventListener("DOMContentLoaded", function () {
 
+    const cookieBanner =
+        document.getElementById("cookie-banner");
+
+    const acceptButton =
+        document.getElementById("accept-cookies");
+
+    const rejectButton =
+        document.getElementById("reject-cookies");
+
+    const savedConsent =
+        localStorage.getItem("cbwebgis-cookie-consent");
+
+
+    function updateGoogleConsent(status) {
+
+        const analyticsStatus =
+            status === "accepted" ? "granted" : "denied";
+
+        gtag("consent", "update", {
+            analytics_storage: analyticsStatus,
+            ad_storage: "denied",
+            ad_user_data: "denied",
+            ad_personalization: "denied"
+        });
+    }
+
+
+    if (savedConsent === "accepted") {
+
+        updateGoogleConsent("accepted");
+
+    } else if (savedConsent === "rejected") {
+
+        updateGoogleConsent("rejected");
+
+    } else {
+
+        cookieBanner.classList.add("show");
+
+    }
+
+
+    acceptButton.addEventListener("click", function () {
+
+        localStorage.setItem(
+            "cbwebgis-cookie-consent",
+            "accepted"
+        );
+
+        updateGoogleConsent("accepted");
+        cookieBanner.classList.remove("show");
+
+    });
+
+
+    rejectButton.addEventListener("click", function () {
+
+        localStorage.setItem(
+            "cbwebgis-cookie-consent",
+            "rejected"
+        );
+
+        updateGoogleConsent("rejected");
+        cookieBanner.classList.remove("show");
+
+    });
+
+});
+</script>
 </body>
 
 </html>
