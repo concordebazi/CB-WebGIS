@@ -4,6 +4,8 @@
 <head>
     <!-- Google Consent Mode -->
 <script>
+    const COOKIE_CONSENT_ENABLED = false;
+
     window.dataLayer = window.dataLayer || [];
 
     function gtag() {
@@ -11,7 +13,9 @@
     }
 
     gtag("consent", "default", {
-        analytics_storage: "denied",
+        analytics_storage:
+            COOKIE_CONSENT_ENABLED ? "denied" : "granted",
+
         ad_storage: "denied",
         ad_user_data: "denied",
         ad_personalization: "denied"
@@ -527,6 +531,9 @@ content="Professional web design, interactive maps and GIS solutions for small b
 </div>
 <script>
 document.addEventListener("DOMContentLoaded", function () {
+        if (!COOKIE_CONSENT_ENABLED) {
+        return;
+    }
 
     const cookieBanner =
         document.getElementById("cookie-banner");
