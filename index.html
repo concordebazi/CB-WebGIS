@@ -2,14 +2,30 @@
 <html lang="en">
 
 <head>
-    <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-M1N14C6ZLE"></script>
+    <!-- Google Consent Mode -->
 <script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+    window.dataLayer = window.dataLayer || [];
 
-  gtag('config', 'G-M1N14C6ZLE');
+    function gtag() {
+        dataLayer.push(arguments);
+    }
+
+    gtag("consent", "default", {
+        analytics_storage: "denied",
+        ad_storage: "denied",
+        ad_user_data: "denied",
+        ad_personalization: "denied"
+    });
+</script>
+
+<!-- Google Analytics -->
+<script async
+    src="https://www.googletagmanager.com/gtag/js?id=G-M1N14C6ZLE">
+</script>
+
+<script>
+    gtag("js", new Date());
+    gtag("config", "G-M1N14C6ZLE");
 </script>
 
     <meta charset="UTF-8">
