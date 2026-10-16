@@ -5943,3 +5943,164 @@ section h2{
         font-size: 0.85rem;
     }
 }
+
+/* ==========================================
+   GEORISK AI — FEATURED PROJECT
+========================================== */
+
+.georisk-feature {
+    padding: 90px 24px;
+    background: #0b1724;
+    color: #ffffff;
+}
+
+.georisk-feature-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: 55px;
+}
+
+.georisk-feature-content {
+    min-width: 0;
+}
+
+.georisk-feature-label {
+    display: inline-block;
+    color: #5ee0b5;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+}
+
+.georisk-feature-content h2 {
+    font-size: clamp(32px, 4vw, 52px);
+    line-height: 1.15;
+    margin: 0 0 24px;
+    color: #ffffff;
+}
+
+.georisk-feature-content h2 span {
+    display: block;
+    font-size: clamp(20px, 2.5vw, 30px);
+    color: #5ee0b5;
+    margin-top: 10px;
+}
+
+.georisk-feature-content p {
+    font-size: 15px;
+    line-height: 1.85;
+    color: #c4d0dc;
+    margin-bottom: 18px;
+}
+
+.georisk-feature-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: 25px 0 30px;
+}
+
+.georisk-feature-tags span {
+    padding: 8px 13px;
+    border: 1px solid #2a4d55;
+    background: rgba(94, 224, 181, 0.08);
+    border-radius: 20px;
+    color: #a9e9d4;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.georisk-feature-button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    padding: 15px 24px;
+    background: #45d6a0;
+    color: #08221b;
+    border-radius: 10px;
+    font-size: 14px;
+    font-weight: 800;
+    text-decoration: none;
+    transition: transform 0.2s ease, background 0.2s ease;
+}
+
+.georisk-feature-button:hover {
+    background: #72ebc0;
+    transform: translateY(-3px);
+}
+
+.georisk-feature-visual {
+    position: relative;
+    min-width: 0;
+    overflow: hidden;
+    border-radius: 18px;
+    border: 1px solid #284555;
+    box-shadow: 0 25px 65px rgba(0, 0, 0, 0.35);
+}
+
+.georisk-feature-visual img {
+    display: block;
+    width: 100%;
+    height: auto;
+    aspect-ratio: 16 / 10;
+    object-fit: cover;
+}
+
+.georisk-feature-image-label {
+    position: absolute;
+    bottom: 16px;
+    left: 16px;
+    padding: 10px 14px;
+    border-radius: 8px;
+    background: rgba(8, 23, 35, 0.88);
+    color: #5ee0b5;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+/* MOBILE & TABLET */
+
+@media (max-width: 850px) {
+    .georisk-feature {
+        padding: 65px 20px;
+    }
+
+    .georisk-feature-container {
+        grid-template-columns: 1fr;
+        gap: 35px;
+    }
+
+    .georisk-feature-content h2 {
+        font-size: 34px;
+    }
+}
+
+@media (max-width: 480px) {
+    .georisk-feature {
+        padding: 50px 16px;
+    }
+
+    .georisk-feature-content h2 {
+        font-size: 30px;
+    }
+
+    .georisk-feature-content h2 span {
+        font-size: 21px;
+    }
+
+    .georisk-feature-visual img {
+        aspect-ratio: 4 / 3;
+    }
+
+    .georisk-feature-image-label {
+        font-size: 9px;
+        left: 10px;
+        bottom: 10px;
+    }
+}
