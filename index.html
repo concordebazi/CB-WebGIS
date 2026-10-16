@@ -1,609 +1,497 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-
-<head>
+  <head>
     <!-- Google Consent Mode -->
-<script>
-    const COOKIE_CONSENT_ENABLED = false;
+    <script>
+      const COOKIE_CONSENT_ENABLED = false;
 
-    window.dataLayer = window.dataLayer || [];
+      window.dataLayer = window.dataLayer || [];
 
-    function gtag() {
+      function gtag() {
         dataLayer.push(arguments);
-    }
+      }
 
-    gtag("consent", "default", {
-        analytics_storage:
-            COOKIE_CONSENT_ENABLED ? "denied" : "granted",
+      gtag("consent", "default", {
+        analytics_storage: COOKIE_CONSENT_ENABLED ? "denied" : "granted",
 
         ad_storage: "denied",
         ad_user_data: "denied",
-        ad_personalization: "denied"
-    });
-</script>
+        ad_personalization: "denied",
+      });
+    </script>
 
-<!-- Google Analytics -->
-<script async
-    src="https://www.googletagmanager.com/gtag/js?id=G-M1N14C6ZLE">
-</script>
+    <!-- Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-M1N14C6ZLE"
+    ></script>
 
-<script>
-    gtag("js", new Date());
-    gtag("config", "G-M1N14C6ZLE");
-</script>
+    <script>
+      gtag("js", new Date());
+      gtag("config", "G-M1N14C6ZLE");
+    </script>
 
-    <meta charset="UTF-8">
+    <meta charset="UTF-8" />
 
-    <meta name="viewport"
-    content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-   <title>
-    CB Web & GIS | Web Design & GIS Solutions in Sweden
-</title>
+    <title>CB Web & GIS | Web Design & GIS Solutions in Sweden</title>
 
-    <meta name="description"
-content="Professional web design, interactive maps and GIS solutions for small businesses and organizations in Sweden.">
-    <link rel="canonical" href="https://cbwebgis.se/">
-    <link rel="alternate" hreflang="en" href="https://cbwebgis.se/">
-<link rel="alternate" hreflang="sv" href="https://cbwebgis.se/sv/">
-<link rel="alternate" hreflang="x-default" href="https://cbwebgis.se/">
-    <meta property="og:title" content="CB Web & GIS | Web Design & GIS Solutions in Sweden">
-<meta property="og:description" content="Professional web design, interactive maps and GIS solutions for small businesses and organizations in Sweden.">
-<meta property="og:url" content="https://cbwebgis.se/">
-<meta property="og:type" content="website">
-    <meta property="og:image" content="https://cbwebgis.se/images/cb-webgis-logo.png">
-    <meta property="og:site_name" content="CB Web & GIS">
-    <meta name="robots" content="index, follow">
-<link
-    rel="icon"
-    type="image/png"
-    href="images/cb-webgis-icon.png">
-    <link rel="stylesheet"
-    href="css/style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <meta
+      name="description"
+      content="Professional web design, interactive maps and GIS solutions for small businesses and organizations in Sweden."
+    />
+    <link rel="canonical" href="https://cbwebgis.se/" />
+    <link rel="alternate" hreflang="en" href="https://cbwebgis.se/" />
+    <link rel="alternate" hreflang="sv" href="https://cbwebgis.se/sv/" />
+    <link rel="alternate" hreflang="x-default" href="https://cbwebgis.se/" />
+    <meta
+      property="og:title"
+      content="CB Web & GIS | Web Design & GIS Solutions in Sweden"
+    />
+    <meta
+      property="og:description"
+      content="Professional web design, interactive maps and GIS solutions for small businesses and organizations in Sweden."
+    />
+    <meta property="og:url" content="https://cbwebgis.se/" />
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:image"
+      content="https://cbwebgis.se/images/cb-webgis-logo.png"
+    />
+    <meta property="og:site_name" content="CB Web & GIS" />
+    <meta name="robots" content="index, follow" />
+    <link rel="icon" type="image/png" href="images/cb-webgis-icon.png" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-    href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&display=swap"
-    rel="stylesheet">
-    
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
     <script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "ProfessionalService",
-  "name": "CB Web & GIS",
-  "url": "https://cbwebgis.se/",
-  "logo": "https://cbwebgis.se/images/cb-webgis-logo.png",
+      {
+        "@context": "https://schema.org",
+        "@type": "ProfessionalService",
+        "name": "CB Web & GIS",
+        "url": "https://cbwebgis.se/",
+        "logo": "https://cbwebgis.se/images/cb-webgis-logo.png",
         "image": "https://cbwebgis.se/images/cb-webgis-logo.png",
-  "description": "CB Web & GIS provides professional web design, interactive GIS maps and practical AI solutions for businesses in Sweden.",
-  "serviceType": [
-    "Web Design",
-    "GIS Solutions",
-    "Interactive Maps",
-    "Location Analysis",
-    "AI Automation"
-  ],
-  "areaServed": {
-    "@type": "Country",
-    "name": "Sweden"
-  },
-  "knowsAbout": [
-    "Web Design",
-    "GIS",
-    "Interactive Maps",
-    "Location Analysis",
-    "AI Automation"
-  ],
-  "contactPoint": {
-    "@type": "ContactPoint",
-    "url": "https://cbwebgis.se/contact/",
-    "contactType": "customer service",
-    "areaServed": "SE",
-    "availableLanguage": [
-      "English",
-      "Swedish"
-    ]
-  }
-}
-</script>
+        "description": "CB Web & GIS provides professional web design, interactive GIS maps and practical AI solutions for businesses in Sweden.",
+        "serviceType": [
+          "Web Design",
+          "GIS Solutions",
+          "Interactive Maps",
+          "Location Analysis",
+          "AI Automation"
+        ],
+        "areaServed": {
+          "@type": "Country",
+          "name": "Sweden"
+        },
+        "knowsAbout": [
+          "Web Design",
+          "GIS",
+          "Interactive Maps",
+          "Location Analysis",
+          "AI Automation"
+        ],
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "url": "https://cbwebgis.se/contact/",
+          "contactType": "customer service",
+          "areaServed": "SE",
+          "availableLanguage": ["English", "Swedish"]
+        }
+      }
+    </script>
+  </head>
 
-</head>
-
-
-<body>
-
-
-<header>
-
-    <nav class="navbar">
-
+  <body>
+    <header>
+      <nav class="navbar">
         <a href="index.html" class="site-logo">
-
-           <img
-    src="images/cb-webgis-logo-400.webp"
-    alt="CB Web & GIS logo">
-
+          <img src="images/cb-webgis-logo-400.webp" alt="CB Web & GIS logo" />
         </a>
 
-
         <button
-            class="menu-toggle"
-            id="menu-toggle"
-            aria-label="Open navigation menu"
-            aria-expanded="false">
-
-            <span></span>
-            <span></span>
-            <span></span>
-
+          class="menu-toggle"
+          id="menu-toggle"
+          aria-label="Open navigation menu"
+          aria-expanded="false"
+        >
+          <span></span>
+          <span></span>
+          <span></span>
         </button>
 
-
         <ul class="nav-links">
+          <li>
+            <a href="index.html">Home</a>
+          </li>
 
-            <li>
-                <a href="index.html">Home</a>
-            </li>
+          <li>
+            <a href="web/index.html">Web</a>
+          </li>
 
+          <li>
+            <a href="gis/index.html">GIS</a>
+          </li>
 
-            <li>
-                <a href="web/index.html">Web</a>
-            </li>
+          <li>
+            <a href="ai/index.html">AI Solutions</a>
+          </li>
 
-            <li>
-                <a href="gis/index.html">GIS</a>
-            </li>
+          <li>
+            <a href="projects/index.html">Projects</a>
+          </li>
+          <li>
+            <a href="pricing/index.html">Pricing</a>
+          </li>
+          <li>
+            <a href="about/index.html">About</a>
+          </li>
 
-            <li>
-                <a href="ai/index.html">AI Solutions</a>
-            </li>
-
-            <li>
-                <a href="projects/index.html">Projects</a>
-            </li>
-<li>
-    <a href="pricing/index.html">Pricing</a>
-</li>
-            <li>
-                <a href="about/index.html">About</a>
-            </li>
-
-            <li>
-                <a href="contact/index.html">Contact</a>
-            </li>
-
+          <li>
+            <a href="contact/index.html">Contact</a>
+          </li>
         </ul>
 
-
         <div class="language-switch">
+          <a href="sv/index.html"> 🇸🇪 Svenska </a>
+        </div>
 
-            <a href="sv/index.html">
-                🇸🇪 Svenska
+        <a href="contact/index.html#contact-form" class="nav-btn">
+          Get a Free Quote
+        </a>
+      </nav>
+    </header>
+
+    <main>
+      <section id="home" class="hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-network" aria-hidden="true">
+          <span class="network-node node-one"></span>
+          <span class="network-node node-two"></span>
+          <span class="network-node node-three"></span>
+          <span class="network-node node-four"></span>
+
+          <span class="network-arc arc-one"></span>
+          <span class="network-arc arc-two"></span>
+          <span class="network-arc arc-three"></span>
+        </div>
+
+        <div class="hero-content">
+          <div class="hero-text-content">
+            <div class="hero-badge">
+              ✦ SMART DIGITAL SOLUTIONS FOR YOUR BUSINESS
+            </div>
+
+            <h1>
+              Modern Websites,<br />
+              Smart GIS & Practical<br />
+              <span class="hero-ai-text">AI Solutions</span><br />
+              for Businesses in Sweden
+            </h1>
+
+            <p class="hero-text">
+              We provide professional web design, interactive GIS maps and
+              practical AI solutions for businesses in Sweden, helping you
+              attract more customers, work smarter and grow.
+            </p>
+
+            <div class="hero-buttons">
+              <a href="contact/index.html#contact-form" class="btn primary-btn">
+                Get a Free Quote
+                <span>→</span>
+              </a>
+
+              <a href="projects/index.html" class="btn secondary-btn">
+                See Our Work
+                <span>→</span>
+              </a>
+            </div>
+          </div>
+
+          <div class="hero-visual">
+            <img
+              src="images/hero-digital-solutions-800.webp"
+              alt="Web design, GIS mapping and AI business solutions"
+              class="hero-solutions-image"
+              fetchpriority="high"
+            />
+          </div>
+        </div>
+
+        <div class="hero-services">
+          <a href="web/index.html" class="hero-service-card">
+            <div class="hero-service-icon">💻</div>
+
+            <div>
+              <h3>Web Design</h3>
+
+              <p>Modern & mobile-friendly websites that build your business.</p>
+            </div>
+          </a>
+
+          <a href="gis/index.html" class="hero-service-card">
+            <div class="hero-service-icon">📍</div>
+
+            <div>
+              <h3>GIS Solutions</h3>
+
+              <p>
+                Interactive maps & location insights to make better decisions.
+              </p>
+            </div>
+          </a>
+
+          <a href="ai/index.html" class="hero-service-card">
+            <div class="hero-service-icon hero-ai-icon">AI</div>
+
+            <div>
+              <h3>AI Automation</h3>
+
+              <p>
+                Smart assistants & automation that save time and boost growth.
+              </p>
+            </div>
+          </a>
+
+          <a href="projects/index.html" class="hero-service-card">
+            <div class="hero-service-icon">📈</div>
+
+            <div>
+              <h3>Business Growth</h3>
+
+              <p>Digital solutions that help you reach more customers.</p>
+            </div>
+          </a>
+        </div>
+
+        <div class="hero-motto">
+          <span>DESIGN</span>
+          <i>•</i>
+          <span>MAP</span>
+          <i>•</i>
+          <span>AUTOMATE</span>
+          <i>•</i>
+          <span>GROW</span>
+        </div>
+      </section>
+    
+<!-- ======================================
+     FEATURED PROJECT — GEORISK AI
+======================================= -->
+
+<section class="georisk-feature" id="georisk">
+
+    <div class="georisk-feature-container">
+
+        <div class="georisk-feature-content">
+
+            <span class="georisk-feature-label">
+                FEATURED GIS PROJECT
+            </span>
+
+            <h2>
+                GeoRisk AI
+                <span>Geospatial Analysis for Smarter Decisions</span>
+            </h2>
+
+            <p>
+                Discover how geospatial data and interactive maps
+                can be used to analyse terrain, ground elevation
+                and illustrative water-level scenarios.
+            </p>
+
+            <p>
+                GeoRisk AI is an interactive GIS demonstration
+                showcasing the potential of data-driven planning
+                support for municipalities, organisations
+                and businesses.
+            </p>
+
+            <div class="georisk-feature-tags">
+                <span>Web GIS</span>
+                <span>Terrain Analysis</span>
+                <span>Geospatial Data</span>
+                <span>Planning Support</span>
+            </div>
+
+            <a
+                href="https://concordebazi.github.io/CB-WebGIS-Demos/georisk-ai/"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="georisk-feature-button">
+
+                Explore GeoRisk AI
+                <span>↗</span>
+
             </a>
 
         </div>
 
+        <div class="georisk-feature-visual">
 
-        <a
-            href="contact/index.html#contact-form"
-            class="nav-btn">
+            <img
+                src="images/georisk-ai-preview.jpg"
+                alt="GeoRisk AI – interactive terrain analysis and illustrative water-level scenarios"
+                loading="lazy"
+            >
 
-            Get a Free Quote
-
-        </a>
-
-    </nav>
-
-</header>
-
-
-<main>
-
-
-<section id="home" class="hero">
-
-    <div class="hero-overlay"></div>
-    <div class="hero-network" aria-hidden="true">
-
-    <span class="network-node node-one"></span>
-    <span class="network-node node-two"></span>
-    <span class="network-node node-three"></span>
-    <span class="network-node node-four"></span>
-
-    <span class="network-arc arc-one"></span>
-    <span class="network-arc arc-two"></span>
-    <span class="network-arc arc-three"></span>
-
-</div>
-
-    <div class="hero-content">
-
-        <div class="hero-text-content">
-
-            <div class="hero-badge">
-                ✦ SMART DIGITAL SOLUTIONS FOR YOUR BUSINESS
-            </div>
-
-          <h1>
-    Modern Websites,<br>
-    Smart GIS & Practical<br>
-    <span class="hero-ai-text">AI Solutions</span><br>
-    for Businesses in Sweden
-</h1>
-
-           <p class="hero-text">
-    We provide professional web design, interactive GIS maps
-    and practical AI solutions for businesses in Sweden,
-    helping you attract more customers, work smarter and grow.
-</p>
-
-            <div class="hero-buttons">
-
-                <a
-                   href="contact/index.html#contact-form"
-                    class="btn primary-btn">
-
-                    Get a Free Quote
-                    <span>→</span>
-
-                </a>
-
-                <a
-                    href="projects/index.html"
-                    class="btn secondary-btn">
-
-                    See Our Work
-                    <span>→</span>
-
-                </a>
-
+            <div class="georisk-feature-image-label">
+                GEORISK AI · INTERACTIVE DEMO
             </div>
 
         </div>
-
-        <div class="hero-visual">
-
-          <img
-    src="images/hero-digital-solutions-800.webp"
-    alt="Web design, GIS mapping and AI business solutions"
-    class="hero-solutions-image"
-    fetchpriority="high">
-
-        </div>
-        
-    </div>
-
-
-   <div class="hero-services">
-
-        <a
-            href="web/index.html"
-            class="hero-service-card">
-
-            <div class="hero-service-icon">
-                💻
-            </div>
-
-            <div>
-
-               <h3>Web Design</h3>
-
-                <p>
-                    Modern & mobile-friendly websites
-                    that build your business.
-                </p>
-
-            </div>
-
-        </a>
-
-
-        <a
-            href="gis/index.html"
-            class="hero-service-card">
-
-            <div class="hero-service-icon">
-                📍
-            </div>
-
-            <div>
-
-                <h3>
-                    GIS Solutions
-                </h3>
-
-                <p>
-                    Interactive maps & location insights
-                    to make better decisions.
-                </p>
-
-            </div>
-
-        </a>
-
-
-        <a
-            href="ai/index.html"
-            class="hero-service-card">
-
-            <div class="hero-service-icon hero-ai-icon">
-                AI
-            </div>
-
-            <div>
-
-                <h3>
-                    AI Automation
-                </h3>
-
-                <p>
-                    Smart assistants & automation
-                    that save time and boost growth.
-                </p>
-
-            </div>
-
-        </a>
-
-
-        <a
-            href="projects/index.html"
-            class="hero-service-card">
-
-            <div class="hero-service-icon">
-                📈
-            </div>
-
-            <div>
-
-                <h3>
-                    Business Growth
-                </h3>
-
-                <p>
-                    Digital solutions that help you
-                    reach more customers.
-                </p>
-
-            </div>
-
-        </a>
-
-    </div>
-
-
-    <div class="hero-motto">
-
-        <span>DESIGN</span>
-        <i>•</i>
-        <span>MAP</span>
-        <i>•</i>
-        <span>AUTOMATE</span>
-        <i>•</i>
-        <span>GROW</span>
 
     </div>
 
 </section>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-</main>
-<footer class="site-footer">
-
-    <div class="footer-container">
-
+    </main>
+    <footer class="site-footer">
+      <div class="footer-container">
         <div class="footer-main">
-
-            <div class="footer-brand">
-
-             <a href="index.html" class="footer-site-logo">
-
-    <img
-        src="images/cb-webgis-logo-400.webp"
-        alt="CB Web & GIS logo">
-
-</a>
-
-                <p>
-                    Modern websites, interactive maps and
-                    practical GIS solutions for businesses.
-                </p>
-
-            </div>
-
-
-           <div class="footer-links">
-
-    <h3>Services</h3>
-
-    <a href="web/index.html">
-        Web Design
-    </a>
-
-    <a href="gis/index.html">
-        GIS Solutions
-    </a>
-
-   <a href="ai/index.html">
-    AI Automation
-</a>
-
- <a href="contact/index.html#contact-form">
-    Request a Quote
-</a>
-
-</div>
-
-
-           <div class="footer-links">
-
-    <h3>Explore</h3>
-
-    <a href="projects/index.html">
-        Projects
-    </a>
-<a href="pricing/index.html">
-    Pricing
-</a>
-    <a href="about/index.html">
-        About
-    </a>
-
-    <a href="contact/index.html">
-        Contact
-    </a>
-
-    <a href="sv/index.html">
-        🇸🇪 Svenska
-    </a>
-
-</div>
-
-        </div>
-
-
-        <div class="footer-bottom">
-
-            <p>
-                © 2026 CB Web & GIS. All rights reserved.
-            </p>
-
-            <a href="#home">
-                Back to top ↑
+          <div class="footer-brand">
+            <a href="index.html" class="footer-site-logo">
+              <img
+                src="images/cb-webgis-logo-400.webp"
+                alt="CB Web & GIS logo"
+              />
             </a>
 
+            <p>
+              Modern websites, interactive maps and practical GIS solutions for
+              businesses.
+            </p>
+          </div>
+
+          <div class="footer-links">
+            <h3>Services</h3>
+
+            <a href="web/index.html"> Web Design </a>
+
+            <a href="gis/index.html"> GIS Solutions </a>
+
+            <a href="ai/index.html"> AI Automation </a>
+
+            <a href="contact/index.html#contact-form"> Request a Quote </a>
+          </div>
+
+          <div class="footer-links">
+            <h3>Explore</h3>
+
+            <a href="projects/index.html"> Projects </a>
+            <a href="pricing/index.html"> Pricing </a>
+            <a href="about/index.html"> About </a>
+
+            <a href="contact/index.html"> Contact </a>
+
+            <a href="sv/index.html"> 🇸🇪 Svenska </a>
+          </div>
         </div>
 
-    </div>
+        <div class="footer-bottom">
+          <p>© 2026 CB Web & GIS. All rights reserved.</p>
 
-</footer>
+          <a href="#home"> Back to top ↑ </a>
+        </div>
+      </div>
+    </footer>
 
-<script src="js/script.js"></script>
-<!-- COOKIE CONSENT BANNER -->
-<div id="cookie-banner"
-     class="cookie-banner"
-     role="dialog"
-     aria-label="Cookieinställningar"
-     aria-live="polite">
-
-    <div class="cookie-content">
-
+    <script src="js/script.js"></script>
+    <!-- COOKIE CONSENT BANNER -->
+    <div
+      id="cookie-banner"
+      class="cookie-banner"
+      role="dialog"
+      aria-label="Cookieinställningar"
+      aria-live="polite"
+    >
+      <div class="cookie-content">
         <div class="cookie-text">
-            <h2>Cookies och statistik</h2>
+          <h2>Cookies och statistik</h2>
 
-            <p>
-                Vi använder valfria analyscookies för att förstå hur
-                webbplatsen används och förbättra våra tjänster.
-            </p>
+          <p>
+            Vi använder valfria analyscookies för att förstå hur webbplatsen
+            används och förbättra våra tjänster.
+          </p>
 
-            <p class="cookie-english">
-                We use optional analytics cookies to understand how
-                the website is used and improve our services.
-            </p>
+          <p class="cookie-english">
+            We use optional analytics cookies to understand how the website is
+            used and improve our services.
+          </p>
         </div>
 
         <div class="cookie-actions">
-            <button id="reject-cookies"
-                    class="cookie-btn cookie-reject"
-                    type="button">
-                Avvisa / Reject
-            </button>
+          <button
+            id="reject-cookies"
+            class="cookie-btn cookie-reject"
+            type="button"
+          >
+            Avvisa / Reject
+          </button>
 
-            <button id="accept-cookies"
-                    class="cookie-btn cookie-accept"
-                    type="button">
-                Acceptera / Accept
-            </button>
+          <button
+            id="accept-cookies"
+            class="cookie-btn cookie-accept"
+            type="button"
+          >
+            Acceptera / Accept
+          </button>
         </div>
-
+      </div>
     </div>
-</div>
-<script>
-document.addEventListener("DOMContentLoaded", function () {
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
         if (!COOKIE_CONSENT_ENABLED) {
-        return;
-    }
+          return;
+        }
 
-    const cookieBanner =
-        document.getElementById("cookie-banner");
+        const cookieBanner = document.getElementById("cookie-banner");
 
-    const acceptButton =
-        document.getElementById("accept-cookies");
+        const acceptButton = document.getElementById("accept-cookies");
 
-    const rejectButton =
-        document.getElementById("reject-cookies");
+        const rejectButton = document.getElementById("reject-cookies");
 
-    const savedConsent =
-        localStorage.getItem("cbwebgis-cookie-consent");
+        const savedConsent = localStorage.getItem("cbwebgis-cookie-consent");
 
+        function updateGoogleConsent(status) {
+          const analyticsStatus = status === "accepted" ? "granted" : "denied";
 
-    function updateGoogleConsent(status) {
-
-        const analyticsStatus =
-            status === "accepted" ? "granted" : "denied";
-
-        gtag("consent", "update", {
+          gtag("consent", "update", {
             analytics_storage: analyticsStatus,
             ad_storage: "denied",
             ad_user_data: "denied",
-            ad_personalization: "denied"
+            ad_personalization: "denied",
+          });
+        }
+
+        if (savedConsent === "accepted") {
+          updateGoogleConsent("accepted");
+        } else if (savedConsent === "rejected") {
+          updateGoogleConsent("rejected");
+        } else {
+          cookieBanner.classList.add("show");
+        }
+
+        acceptButton.addEventListener("click", function () {
+          localStorage.setItem("cbwebgis-cookie-consent", "accepted");
+
+          updateGoogleConsent("accepted");
+          cookieBanner.classList.remove("show");
         });
-    }
 
+        rejectButton.addEventListener("click", function () {
+          localStorage.setItem("cbwebgis-cookie-consent", "rejected");
 
-    if (savedConsent === "accepted") {
-
-        updateGoogleConsent("accepted");
-
-    } else if (savedConsent === "rejected") {
-
-        updateGoogleConsent("rejected");
-
-    } else {
-
-        cookieBanner.classList.add("show");
-
-    }
-
-
-    acceptButton.addEventListener("click", function () {
-
-        localStorage.setItem(
-            "cbwebgis-cookie-consent",
-            "accepted"
-        );
-
-        updateGoogleConsent("accepted");
-        cookieBanner.classList.remove("show");
-
-    });
-
-
-    rejectButton.addEventListener("click", function () {
-
-        localStorage.setItem(
-            "cbwebgis-cookie-consent",
-            "rejected"
-        );
-
-        updateGoogleConsent("rejected");
-        cookieBanner.classList.remove("show");
-
-    });
-
-});
-</script>
-</body>
-
+          updateGoogleConsent("rejected");
+          cookieBanner.classList.remove("show");
+        });
+      });
+    </script>
+  </body>
 </html>
